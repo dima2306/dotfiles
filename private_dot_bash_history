@@ -1,0 +1,644 @@
+dnf install timeshift
+sudo dnf install timeshift
+sudo dnf install   https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
+sudo dnf install   https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+flat
+sudo dnf install flatpack
+gpaste-client 
+lspci |grep -E "VGA|3D"
+lspci -nn  | grep -oP 'VGA.*NVIDIA.*\[\K[\w:]+'
+lspci -nn  | grep -oP '3D.*NVIDIA.*\[\K[\w:]+'
+/sbin/lspci | grep -e 3D
+flat[ak
+flatpak
+wget --server-response --spider localhost
+lynx
+su -
+sudo code /etc/httpd/conf/httpd.conf
+code /etc/httpd/conf/httpd.conf
+sudo systemctl restart httpd
+cd su -
+su -
+setsebool -P httpd_execmem 1
+sudo setsebool -P httpd_execmem 1
+sudo ausearch -c 'php-fpm' --raw | audit2allow -M my-phpfpm
+semodule -X 300 -i my-phpfpm.pp
+sudo semodule -X 300 -i my-phpfpm.pp
+reboot
+dnf search *ace*-*stream*
+clear
+sudo setsebool -P use_virtualbox 1
+sudo snap install snap-store
+sudo dnf install snapd
+sudo snap install mailspring phpstorm glimpse
+sudo ln -s /var/lib/snapd/snap /snap
+sudo snap install mailspring phpstorm glimpse
+sudo systemctl start snapd
+sudo snap install mailspring phpstorm glimpse
+sudo snap install mailspring phpstorm glimpse-editor
+sudo snap install mailspring phpstorm --classic glimpse-editor
+sudo snap install mailspring glimpse-editor
+sudo dnf remove code
+ln -s /var/lib/snapd/desktop/applications/*.desktop .local/share/applications
+ln -s /var/lib/snapd/desktop/applications/*.desktop /local/share/applications
+ln -s /var/lib/snapd/desktop/applications/*.desktop /usr/share/applications
+sudo ln -s /var/lib/snapd/desktop/applications/*.desktop /usr/share/applications
+sudo snap install snap-store
+snap-store 
+usermod -a -G vboxusers $USER
+sudo usermod -a -G vboxusers $USER
+screenfetch 
+sudo dnf install neofetch
+neofetch 
+clear
+neofetch 
+screenfetch 
+node -v
+npm -v
+flatpak install flathub org.filezillaproject.Filezilla
+sudo systemctl start flatpak
+systemctl status
+systemctl status php-fpm.service 
+systemctl status httpd
+systemctl status mariadb
+systemctl enable mariadb
+sudo systemctl enable htppd
+sudo systemctl enable httpd
+sudo mysql
+systemctl status mariadb
+sudo systemctl start httpd
+sudo systemctl start mariadb.service 
+sudo mysql
+select * from mysql.user
+sudo mysql
+sudo mysql -p
+systemctl --help
+q
+sudo dnf install anydesk
+sudo systemctl disable anydesk
+sudo dnf install filezilla
+cp firefox-76.0b3.tar.bz2 /opt/
+sudo cp firefox-76.0b3.tar.bz2 /opt/
+cd op
+cd opt
+cd /opt
+ll
+tar -xvf firefox-76.0b3.tar.bz2 
+sudo chown $user:$user firefox-76.0b3.tar.bz2 
+ll
+sudo chown $USER:$user firefox-76.0b3.tar.bz2 
+ll
+tar -xvf firefox-76.0b3.tar.bz2 
+sudo tar -xvf firefox-76.0b3.tar.bz2 
+ll
+sudo chown -R $USER firefox
+ll
+sudo chown -R $USER:$USER firefox
+ll
+nemo .
+sudo rm firefox-76.0b3.tar.bz2 
+sudo mv Firefox\ Developer\ Edition.desktop /usr/share/applications/
+journalctl -xe
+journalctl -k
+clear
+journalctl -k
+neofetch 
+sudo mysql -p
+sudo chown $USER:$USER www
+cd www
+ll
+rm -rf cgi-bin/
+rm -rf html
+sudo cp 00-aliases.sh /etc/profile.d
+pa
+pwd
+cd /etc/profile.d/
+subl 00-aliases.sh 
+ssh-keygen --help
+hostnamectl 
+sudo hostname Acer-Aspire-E5-575G-53VG
+hostnamectl 
+hostnamectl -static AcerAspire@Fedora
+hostnamectl --static AcerAspire@Fedora
+hostnamectl --help
+hostnamectl --static="AcerAspire@Fedora"
+hostnamectl --static "AcerAspire@Fedora"
+hostnamectl --static "AcerAspireFedora"
+hostnamectl --static AcerAspireFedora
+hostnamectl --static=AcerAspireFedora
+hostnamectl set-hostname AcerAspireFedora
+hostnamectl 
+hostnamectl set-hostname --transient Acer-Aspire-E5-535G-53VG
+hostnamectl set-hostname --pretty Dima's laptop
+;
+hostnamectl set-hostname --pretty "Dima's laptop"
+hostnamectl
+hostnamectl set-hostname --transient Acer-Aspire-E5-535G-53VG
+hostnamectl
+subl /etc/hosts
+journalctl -k
+reboor
+reboot
+journalctl -k
+journalctl -xe
+tlp
+sudo dnf remove tlp
+reboot
+journalctl -k
+systemctl status virtualbox
+journalctl -xe
+sudo mkdir franz && sudo chown $USER:$USER franz
+ll
+sudo cp ~/Downloads/Franz-5.4.0.AppImage /
+sudo cp ~/Downloads/Franz-5.4.0.AppImage /opt/franz/
+cd /
+rm Franz-5.4.0.AppImage 
+sudo rm Franz-5.4.0.AppImage 
+ll
+sudo chown dima23:dima23 Franz-5.4.0.AppImage 
+chmod +x Franz-5.4.0.AppImage 
+sudo cp /run/media/dima23/System_root/opt/franz/Franz-5.4.1.AppImage /opt/franz/
+sudo chown dima23:dima23 Franz-5.4.1.AppImage 
+chmod +x Franz-5.4.1.AppImage 
+./Franz-5.4.
+./Franz-5.4.1.AppImage 
+chmod +x Franz-5.4.0.AppImage 
+./Franz-5.4.0.AppImage 
+ssh-keygen -b 4096 -t rsa
+subl ~/.ssh/id_rsa.pub
+nemo ~/.ssh/
+art serv
+sudo dnf install qbitorrentr
+sudo dnf install qbitorrent
+sudo dnf install qbittorrent
+art 
+ls
+art
+ll
+chmod 644 config 
+git config --help
+git config --global user.name "Dima"
+git config --global user.email "dima.simonishvili@gmail.com"
+cat ~/.ssh/id_rsa.pub 
+systemctl status ssh
+systemctl status sshd
+systemctl start sshd
+systemctl status sshd
+systemctl stop sshd
+clear
+git push
+git pull
+git pull && git push
+git pull
+git push
+ssh tou
+art 
+art |grep clear
+art clear-compiled
+art cache:clear
+art view:clear
+journalctl -xe |grep tlp
+journalctl -xe |grep irq
+journalctl -xe |grep nobod
+journalctl -xe
+git push origin blog
+git pull
+git pull origin blog
+ssh zerobully 
+touch /etc/sysctl.d/idea.conf
+sudo touch /etc/sysctl.d/idea.conf
+cat fs.inotify.max_user_watches = 524288 >> /etc/sysctl.d/idea.conf 
+sudo cat fs.inotify.max_user_watches = 524288 >> /etc/sysctl.d/idea.conf 
+cd /etc/sysctl.d/
+tree
+ll
+sudo cat fs.inotify.max_user_watches = 524288 >> idea.conf 
+nano idea.conf 
+sudo nano idea.conf 
+sudo sysctl -p --system
+journalctl -xe
+ifconfig |grep 4 
+ifconfig |grep inet4
+ifconfig
+locate apache.conf
+which apache.conf
+locate httpd.conf
+cd /etc/httpd/
+tree
+code conf/httpd.conf 
+code conf.d
+cd conf.d
+sudo touch kingslt.conf
+httpd -S
+systemctl restart httpd
+systemctl status httpd
+systemctl restart httpd
+httpd -S
+httpd --help
+httpd -S
+sudo systemctl restart httpd
+systemctl status httpd
+sudo systemctl restart httpd
+systemctl status httpd
+sudo systemctl restart httpd
+systemctl status httpd
+sudo systemctl restart httpd
+systemctl status httpd
+sudo systemctl restart httpd
+systemctl status httpd
+ll
+sudo mv kingslt.conf kingslt.test.conf 
+sudo systemctl restart httpd
+systemctl status httpd
+sudo systemctl restart httpd
+systemctl status httpd
+sudo mkdir /etc/httpd/sites-available
+sudo mkdir /etc/httpd/sites-enabled
+sudo mv kingslt.test.conf ../sites-available/
+code ../conf/httpd.conf 
+cd ../
+code httpd/
+clear
+pwd
+cd httpd
+ll
+ln -s sites-available/* sites-enabled/
+sudo ln -s sites-available/* sites-enabled/
+ll
+apachectl configtest
+sudo systemctl restart httpd
+systemctl status httpd
+sudo systemctl reload httpd
+sudo systemctl restart httpd
+systemctl status httpd
+code /etc/hosts
+sudo systemctl restart httpd
+sudo /etc/init.d/dns-clean start
+sudo systemctl restart httpd
+sudo mv sites-available/kingslt.test.conf conf.d/
+ifconfig |grep inet
+sudo systemctl restart httpd
+sudo setsebool -P httpd_unified 1
+cd /var/www/
+ll
+chown apache:apache kings_lt/
+sudo chown -R apache:apache kings_lt/
+sudo chmod -R 755
+sudo chmod -R 755 kings_lt/
+sudo systemctl restart httpd
+curl --hrlp
+curl --help
+curl kingslt.test
+wget --help
+wget -S kingslt.test
+sudo systemctl restart httpd
+sudo chown -R $user:$user kings
+sudo chown -R $user:$user kings_lt/
+ll
+sudo chown -R $USER:$USER kings_lt/
+ll
+sudo systemctl restart httpd
+sudo chown -R apache:$USER kings_lt/
+sudo systemctl restart httpd
+sudo chown -R $USER:$USER kings_lt/
+sudo chown -R apache:$USER kings_lt/
+cd /etc/
+ll
+cd httpd/
+ll
+sudo rm -rf sites-*
+cd conf.d
+rm -rf kingslt.test.conf 
+sudo rm -rf kingslt.test.conf 
+sudo systemctl restart httpd
+cd /var/www/
+ll
+sudo chown -R $USER kings_lt/
+journalctl -xe
+ping 8.8.8.8
+art insights
+journalctl -xe
+journalctl -k
+journalctl -xe
+reboot
+npm i
+history 
+code /etc/sysctl.d/idea.conf
+sudo sysctl -p --system
+npm audit fix
+npm i
+npm run dev
+reboot
+art insights
+art insights --help
+art insights --format=json
+clear
+art insights --format=json
+journalctl -xe
+sudo mysql -p
+journalctl -xe
+dmesg 
+sudo rmod i2c_hid
+sudo rmmod i2c_hid
+sudo modprobe i2c_hid
+dmesg 
+sudo rmmod rmi_smbus
+sudo modprobe rmi_smbus
+sudo modprobe psmouse
+sudo modprobe -r psmouse
+sudo modprobe -r i2c_hid
+sudo /sbin/rmmod i2c_hid && /sbin/modprobe i2c_hid
+sudo /sbin/rmmod psmouse && /sbin/modprobe psmouse
+sudo modprobe -r mouse
+cat /proc/bus/input/devices
+sudo rmmod i2c_hid sudo modprobe i2c_hid
+sudo rmmod i2c_hid && sudo modprobe i2c_hid
+ls /lib/modules
+ls /lib/modules/`uname -r`
+ls /lib/modules/`uname -r`/kernel
+ls /lib/modules/`uname -r`/kernel/drivers
+ls /lib/modules/`uname -r`/kernel/drivers/i2c
+sudo rmmod i2c && sudo modprobe i2c
+sudo modprobe i2c
+sudo modprobe i2c_hid
+reboot
+journalctl -xe
+df -h
+git push origin testing
+git push origin master
+art make:migration add_parent_id_column_to_quality_assessments_table --table=quality_assessments
+art migrate:status
+art migrate
+art migrate:rollback
+art migrate
+art migrate:rollback
+art migrate
+art migrate:rollback
+do -sh 2020-04-12_15-57-41/
+dou-sh 2020-04-12_15-57-41/
+du -sh 2020-04-12_15-57-41/
+sudo du -sh 2020-04-12_15-57-41/
+sudo du -sh 2020-04-21_13-00-01/
+ll
+sudo chmod 755 com.bluebraingames.houseofdavinci2/
+ll
+ll
+chmod 644 main.5.com.bluebraingames.houseofdavinci2.obb 
+ll
+ssh lietuva 
+sudo dnf update
+cd /var/www/
+mkdir voyager
+ll
+chmod 755 voyager/
+ll
+cd voyager/
+composer create-project --prefer-dist laravel/laravel voyager
+ll
+nemo
+0
+.
+nemo .
+php artisan voyager:install --with-dummy
+composer require barryvdh/laravel-debugbar --dev
+pa make:model Page
+art make:model Page
+art
+art asgard:install
+art asgard:install -f
+git init
+git add .
+git commit -m "Initial commit"
+neofetch 
+screenfetch 
+git pull
+history 
+history |grep convert
+cd Downloads/
+convert -density 300 PP_2020pavasaris_sertifikatas.pdf PP.jpg
+art |grep ide
+art  ide-helper:generate
+art  ide-helper:eloquent
+art  ide-helper:models
+ssh lietuva 
+cd /var/www/
+composer create-project laravel/laravel new_kings_lt "^6.x"
+composer create-project laravel/laravel new_kings_lt "^6"
+composer require nwidart/laravel-modules
+php artisan vendor:publish --provider="Nwidart\Modules\LaravelModulesServiceProvider"
+composer dump-autoload
+npm install laravel-mix-merge-manifest --save-dev
+php artisan module:list
+art |grep module
+art module:make User News Olympiad FinalOlympiad
+art module:make User Admin
+php artisan module:make-model Customer
+php artisan module:make-model Customer User
+composer dump-autoload
+composer require inertiajs/inertia-laravel
+composer dump-autoload
+ npm install -g npm 
+ssh zerobully 
+git init
+git add .
+git commit -m "Initial commit + added some packages & modules."
+power
+poweroff -h
+git clone https://github.com/yashiroiori/erp-tabler.git
+nemo .
+mkdir Modules
+php artisan migrate --seed
+admin:module-aclmanager:install
+art admin:module-aclmanager:install
+art
+art |grep module
+art module:make Front
+npm install @inertiajs/inertia @inertiajs/inertia-vue
+npm install -g npm
+sudo npm install -g npm
+npm install
+art |grep module
+art
+art |grep module
+art module:list
+poero
+poweroff 
+art make:controller FrontController
+poweroff -h
+npm install @babel/plugin-syntax-dynamic-import
+npm install admin-lte@^3.0 --save
+composer require barryvdh/laravel-debugbar --dev
+composer require --dev barryvdh/laravel-ide-helper
+art ide-helper:generate
+composer update
+npm uninstall admin-lte
+composer require jeroennoten/laravel-adminlte
+php artisan adminlte:install
+art
+art module:use Admin
+php artisan adminlte:install
+art adminlte:install
+art
+art module:unuse Admin
+art module:unuse
+art module updage Admin
+art module:update Admin
+art adminlte:install
+art module:update Admin
+cd Modules/Admin/Resources/views/layouts/partials/
+touch navbar.blade.php sidebar.blade.php content.blade.php footer.blade.php
+art |grep module
+cd ../../../..
+../
+cd ../
+art |grep module
+art 
+art |grep module
+art module:make-middleware AdminMiddleware Admin
+art module:make-model User User
+art module:make-migration create_user_table User
+art module:make-migration create_roles_table User
+art module:migrate User
+art module:migrate:status
+art module:migrate
+art module:migrate-status
+art module:migrate User
+art module:migrate-rollback User
+art module:migrate User
+art |grep ide-
+art ide-helper:models
+art ide-helper:eloquent
+art ide-helper:generate 
+art module:migrate-rollback User
+art module:migrate User
+art module:update User
+art module:migrate-rollback User
+art module:update User
+art module:migrate User
+art module:migrate-rollback User
+art module:migrate User
+art module:update Admin
+art module:make-controller AdminUserListController Admin
+cd /var/www/
+git clone https://github.com/inertiajs/pingcrm.git pingcrm
+cd pingcrm/
+composer install
+npm ci
+npm run dev
+cp .env.example .env
+php artisan key:generate
+touch database/database.sqlite
+php artisan migrate
+php artisan db:seed
+art serv --port=8006
+art module:make Role User
+art module:make-model Role User
+art route:list
+tinker
+art tinker
+clear
+art |grep module
+art |grep dump
+art module:dump
+art module:dump Admin
+art routes:list
+art route:list
+clear
+art route:list
+npm i
+art serv --port=8001
+sudo ausearch -c 'snap-update-ns' --raw | audit2allow -M my-snapupdatens
+semodule -i my-snapupdatens.pp
+sudo semodule -i my-snapupdatens.pp
+art make:model -mrc OnlineResultContext
+art make:model -mc OnlineResultContext
+art make:model -m OnlineResultContext
+art make:controller Admin/OnlineResultContextController
+art migrate:status
+art migrate
+art make:controller Admin/AdminOnlineResultContextController
+art make:controller -r Admin/AdminOnlineResultContextController
+art make:controller --help
+art make:controller --resource Admin/AdminOnlineResultContextController
+composer dump-autoload
+art |grep 'ide-'
+art ide-helper:generate
+art ide-helper:models
+ssh zerobully 
+clear
+zsg --version
+zsh --version
+art module:make-service GeorgianPhoneNumberFormat Admin
+art module:make-rule GeorgianPhoneNumberFormat User
+art module:make-request AdminUserCreateEditRequest Admin
+art module:dump
+composer dump-autoload
+art module:dump Admin
+tree
+npm i --help
+npm i in Modules/Admin/ sass sass-loader fibers deepmerge -D
+npm i in new_kings_lt/Modules/Admin/ sass sass-loader fibers deepmerge -D
+npm i in new_kings_lt/Modules/Admin/package.json sass sass-loader fibers deepmerge -D
+npm i in /Modules/Admin/package.json sass sass-loader fibers deepmerge -D
+npm i in /Modules/Admin/ sass sass-loader fibers deepmerge -D
+npm i in Modules/Admin/ sass sass-loader fibers deepmerge -D
+npm i in new_kings_lt/Modules/Admin/ sass sass-loader fibers deepmerge -D
+npm install sass sass-loader fibers deepmerge -D in new_kings_lt/Modules/Admin
+npm install sass sass-loader fibers deepmerge -D in new_kings_lt/Modules/Admin/package.json
+npm --help
+npm --help install
+npm --help install <folder>
+npm install <folder> --help
+npm install folder --help
+npm install --help
+npm i  new_kings_lt/Modules/Admin/ sass sass-loader fibers deepmerge -D
+npm i Modules/Admin/ sass sass-loader fibers deepmerge -D
+cd Modules/Admin/
+npm install sass sass-loader fibers deepmerge -D
+npm audit fix
+npm install vuetify
+npm audit
+npm update
+npm update laravel-mix
+npm outdated
+npm outdated -g --depth=0
+npm update -g
+sudo npm update -g
+npm outdated -g --depth=0
+npm update -g
+npm update
+npm audit
+art serv --port=8005
+sudo baobab 
+sudo dnf update
+sudo dnf autoremove
+art route:list
+cd ../..
+art route:list
+art module:make-model Role -mrc User
+art module:make-controller Role -mrc User
+art make:controller --help
+art make:model --help
+art module:make-model --help
+art module:make-model -m Role User
+art module:make-controller --help
+art module:make-controller AdminRolesController Admin
+art route:list
+sudo dnf updat4e
+sudo dnf update
+sudo dnf autoremove
+df -h
+fdisk -l
+sudo fdisk -l
+sudo ausearch -c 'snapd' --raw | audit2allow -M my-snapd
+sudo semodule -X 300 -i my-snapd.pp
+sudo setsebool -P httpd_graceful_shutdown 1
+ll
+rm -rf backup/
+rm -rf backup
+du -sh 2020-05-09_15-00-01/
+sudo du -sh 2020-05-09_15-00-01/
+sudo du -sh 2020-04-12_15-57-41/
+sudo du -sh
+sudo du -sh *
+ll
