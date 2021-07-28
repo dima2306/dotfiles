@@ -49,8 +49,11 @@ rpm -Uvh ./dbeaver-ce-latest-stable.x86_64.rpm
 
 echo "----Downloading Mailspring:----"
 wget https://updates.getmailspring.com/download?platform=linuxRpm
-echo "----Installing Mailspring:----"
-rpm -Uvh ./download?platform=linuxRpm.rpm
+# echo "----Installing Mailspring:----"
+# rpm -Uvh ./download?platform=linuxRpm.rpm
+
+echo "----Install Multimedia plugins for audio and video:----"
+dnf group upgrade --with-optional Multimedia
 
 echo "----Installing Development Tools:----"
 dnf install -y @development-tools kernel-devel kernel-headers dkms qt5-qtx11extras elfutils-libelf-devel zlib-devel
@@ -80,4 +83,4 @@ echo "----Restarting Apache server:----"
 systemctl restart httpd
 
 echo "----Installing all other packages:----"
-dnf install -y anydesk nano mc ffmpeg ffmpeg-devel stacer fuse-exfat fira-code-fonts sublime-text timeshift code gimp git htop nodejs okular vlc unrar screenfetch redis remmina ImageMagick php-bcmath php-common php-gd php-json php-mbstring php-mysqlnd php-pear php-pecl-imagick php-pecl-xdebug php-xml
+dnf install -y anydesk nano mc ffmpeg ffmpeg-devel stacer fuse-exfat fira-code-fonts sublime-text timeshift code gimp git htop nodejs okular vlc unrar screenfetch redis remmina ImageMagick php-bcmath php-common php-gd php-json php-mbstring php-mysqlnd php-pear php-pecl-imagick php-pecl-xdebug php-xml ncdu

@@ -76,5 +76,10 @@
         "dependency": "window-preview",
         "value": 1
     },
-    "__md5__": "659b3ef40120523663a0c4ae61b83146"
+    "last-window-order": {
+        "type": "generic",
+        "default": "",
+        "value": "83886083::69213551::104857643::100663304"
+    },
+    "__md5__": "5ef6c9311df5af19c26eced1327c8c40"
 }

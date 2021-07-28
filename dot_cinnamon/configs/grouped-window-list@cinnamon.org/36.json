@@ -210,7 +210,7 @@
     },
     "cycleMenusHotkey": {
         "type": "keybinding",
-        "default": "<Super>space",
+        "default": "",
         "description": "Global hotkey for cycling through thumbnail menus",
         "value": "<Super>space"
     },
@@ -370,5 +370,5 @@
         "description": "Window opacity",
         "value": 100
     },
-    "__md5__": "4df5c42d288d575bfd51e6c2758407b8"
+    "__md5__": "fa5a860c21d2c5e6114cb7e643a57fd7"
 }
